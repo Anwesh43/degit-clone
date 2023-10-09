@@ -1,0 +1,18 @@
+{
+  "name": "degit-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node build/src/main.js",
+    "build": "tsc -p tsconfig.json",
+    "testcommands": "node build/__tests__/testCommandPromise.js",
+    "testformat": "node build/__tests__/testFormattingCommand.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.3",
+    "typescript": "^5.2.2"
+  }
+}
